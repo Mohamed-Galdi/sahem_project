@@ -73,7 +73,8 @@ class DonationSeeder extends Seeder
                 'donation_name' => $plateName,
                 'description' => $description,
                 'image_url' => $imageUrl,
-                'quantity_type' => 'طبق', 'quantity' => $faker->numberBetween(1, 10), // Random quantity between 1 and 20
+                'quantity_type' => 'طبق',
+                'quantity' => $faker->numberBetween(1, 10), // Random quantity between 1 and 20
                 'expiration_date' => $faker->dateTimeBetween('now', '+1 years')->format('Y-m-d'), // Random expiration date within 2 years from now
             ]);
         }

@@ -69,7 +69,7 @@ Route::get('/articles', function () {
 ######################################## Donations ############################################
 Route::get('/donations', [DonationController::class, 'index'])->name('donations.show');
 
-Route::middleware([ 'charity'])->group(function () {
+Route::middleware(['charity'])->group(function () {
     Route::get('/donations/{donation}', [DonationController::class, 'show'])->name('donations.show');
     Route::post('/donation_requests', [DonationRequestController::class, 'store'])->name('donation_requests.store');
 });

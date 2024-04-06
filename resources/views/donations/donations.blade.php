@@ -127,7 +127,6 @@
         @endforelse
     </div>
     <div class="mx-auto max-w-screen-xl ">
-
         {{ $donations->links() }}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/datepicker.min.js"></script>
