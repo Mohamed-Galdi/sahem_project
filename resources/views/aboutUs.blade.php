@@ -11,7 +11,7 @@
     </div>
     {{-- Accordion --}}
     <div class=" max-w-screen-xl justify-end py-12 sm:mx-auto mx-6">
-        <h1 class="text-5xl mb-4 font-almaria text-center "> أسئلة شائعة</h1>
+        <h1 class="text-5xl mb-4 font-almaria text-center "> أسئلة FAQs</h1>
 
         <div id="accordion-collapse" data-accordion="collapse">
             <h2 id="accordion-collapse-heading-1">
