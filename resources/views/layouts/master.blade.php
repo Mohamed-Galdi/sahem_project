@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    @vite('node_modules/flowbite/dist/flowbite.min.js')
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -13,9 +12,8 @@
     <title>{{ config('app.name', 'Sahem') }}</title>
 
     {{-- tailwind --}}
-    @vite('resources/css/animations.css')
-    @vite('resources/js/animations.js')
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
 
 
     {{-- favicon --}}

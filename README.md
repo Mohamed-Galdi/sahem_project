@@ -48,16 +48,7 @@ To run this project locally, ensure you have the following things installed: [**
 
 6. Create the symbolic link: `php artisan storage:link`
 
-7. Run the database migrations: `php artisan migrate`
-
-8. Seed database with demo data: <br>
-   `php artisan db:seed --class=UserSeeder` <br>
-   `php artisan db:seed --class=HomeSeeder` <br>
-   `php artisan db:seed --class=ArticleSeeder` <br>
-   `php artisan db:seed --class=DonorSeeder` <br>
-   `php artisan db:seed --class=CharitySeeder` <br>
-   `php artisan db:seed --class=DonationSeeder` <br>
-   `php artisan db:seed --class=MessageSeeder` <br>
+7. Run the database migrations and seeders: `php artisan migrate:fresh --seed`
 
 9. Run `npm install ` to install frontend dependencies.
 

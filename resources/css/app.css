@@ -1,63 +1,64 @@
+@import 'animations.css';
 /* Almaria font */
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* madani font (local) */
 @layer base {
     @font-face {
         font-family: "madani";
         font-weight: 100;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Thin.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Thin.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 200;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Extra\ Light.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Extra Light.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 300;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Light.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Light.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 400;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Regular.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Regular.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 500;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Medium.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Medium.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 600;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Semi\ Bold.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Semi Bold.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 700;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Bold.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Bold.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 800;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Extra\ Bold.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Extra Bold.ttf") format('truetype');
     }
 
     @font-face {
         font-family: "madani";
         font-weight: 900;
-        src: url("../../public/assets/Madani-Font/Madani\ Arabic\ Black.ttf");
+        src: url("../fonts/Madani-Font/Madani Arabic Black.ttf") format('truetype');
     }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
