@@ -5,13 +5,13 @@
     </div>
     <div class="bg-dark_1">
         <div class="text-center  text-light_1 max-w-screen-xl mx-auto py-8">
-            <h1 class="text-5xl mb-4 font-almaria "> nobda aana </h1>
+            <h1 class="text-5xl mb-4 font-almaria "> نبدة عنا </h1>
             <p class="text-xl font-madani sm:text-center text-justify mx-6 sm:mx-0">{{ $home->about_us_body }}</p>
         </div>
     </div>
     {{-- Accordion --}}
     <div class=" max-w-screen-xl justify-end py-12 sm:mx-auto mx-6">
-        <h1 class="text-5xl mb-4 font-almaria text-center ">  FAQs</h1>
+        <h1 class="text-5xl mb-4 font-almaria text-center ">  الأسئلة الشائعة</h1>
 
         <div id="accordion-collapse" data-accordion="collapse">
             <h2 id="accordion-collapse-heading-1">
