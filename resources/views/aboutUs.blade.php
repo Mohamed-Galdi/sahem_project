@@ -5,7 +5,7 @@
     </div>
     <div class="bg-dark_1">
         <div class="text-center  text-light_1 max-w-screen-xl mx-auto py-8">
-            <h1 class="text-5xl mb-4 font-almaria "> About Us</h1>
+            <h1 class="text-5xl mb-4 font-almaria "> About Us in english</h1>
             <p class="text-xl font-madani sm:text-center text-justify mx-6 sm:mx-0">{{ $home->about_us_body }}</p>
         </div>
     </div>
