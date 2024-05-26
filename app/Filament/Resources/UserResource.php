@@ -13,6 +13,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Infolists\Components\Section;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Hash;
 
 class UserResource extends Resource
@@ -112,6 +113,12 @@ class UserResource extends Resource
             ])
             ->recordUrl(null)
             ;
+    }
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+        ->whereNot('role', 'admin');
     }
 
     public static function getRelations(): array
